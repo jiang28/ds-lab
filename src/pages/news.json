@@ -1,0 +1,61 @@
+{
+  "title": "News",
+  "links": [
+    {
+      "name": "Home",
+      "url": "../"
+    },
+    {
+        "active": "active",
+        "name": "News",
+        "url": "../news"
+    },
+    {
+      "name": "People",
+      "url": "../people"
+    },
+    {
+        "name": "Project",
+        "url": "../project"
+      },
+    {
+      "name": "Publication",
+      "url": "http://dblp.uni-trier.de/pers/hd/k/Ku:Wei=Shinn"
+    },
+    {
+      "name": "Contact",
+      "url": "../contact"
+    }
+  ],
+  "news": [
+    {
+      "title": "Wei Li was awarded statewide graduate research fellowship",
+      "picture": "epscor-wide.jpg",
+      "summary": "Wei Li was accepted into a prestigious Alabama research program, providing them with up to $25,000 to support his research.The Alabama Experimental Program to Stimulate Competitive Research’s Graduate Research Scholars Program aims to keep the top graduate students in engineering and science in Alabama and bolster the state’s research in emerging technologies.",
+      "info": "Read More",
+      "url": "https://www.eng.auburn.edu/news/2018/08/epscor-graduate-research-scholars.html"
+    },
+      {
+        "title": "Dr. Wei-Shinn Ku was promoted to full professor",
+        "picture": "ginn-gates.jpg",
+        "summary": "Wei-Shinn (Jeff) Ku, associate professor of computer science and software engineering, was promoted to full professor. Ku joined the Auburn Engineering faculty in 2007 after completing his doctorate at the University of Southern California. His research interests include spatial databases, data science, cybersecurity and mobile computing. Ku directs the Auburn Data Science Lab and has published more than 100 research papers in refereed international journals and conference proceedings. He is a senior member of the Institute of Electrical and Electronics Engineers and a member of the Association for Computing Machinery’s Special Interest Group on Spatial Information.",
+        "info": "Read More",
+        "url": "https://www.eng.auburn.edu/news/2018/04/2018-promotions-tenure.html"
+      },
+      {
+        "title": "Dr. Wei-Shinn Ku won Senior Research Award in Auburn Engineering spring ceremony",
+        "picture": "senior-research-award.jpg",
+        "summary": "The Samuel Ginn College of Engineering held its annual Spring Awards Ceremony on Friday, April 6, in the Shelby Center Lowe Grand Foyer. The college handed out 35 student awards, 20 faculty awards and 10 alumni awards, in addition to honoring 48 faculty members who hold named professorships and chairs.",
+        "info": "Read More",
+        "url": "https://www.eng.auburn.edu/news/2018/04/springs-awards-2018.html"
+      },
+      {
+        "title": "Google's image recognition AI fooled by new tricks",
+        "picture": "google-image-recognition.png",
+        "summary": "Researchers at Auburn University trained a neural network to fool Google's best image-recognition system, Inception, by rotating objects in space to novel positions. The lesson is that today's AI doesn't really identify objects very well.",
+        "info": "Read More",
+        "url": "https://www.zdnet.com/article/googles-best-image-recognition-system-flummoxed-by-fakes/"
+      }
+
+  ]
+}

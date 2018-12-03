@@ -1,0 +1,44 @@
+<!-- -*- mode: web -*- -->
+
+<!DOCTYPE html>
+<html>
+  {{> partials/head}}
+  <body class="project">
+
+    <div class="container">
+
+      {{> partials/header}}
+
+      {{#projects}}
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <img class="img-responsive" src="/dslab/img/{{picture}}" alt="{{title}}">
+          </div>
+          <div class="col-sm-12 col-md-8">
+            <h3 class="media-heading">{{title}}</h3>
+            <p>{{summary}}</p>
+            {{#awards.length}}
+              <h4>Awards</h4>
+            {{/awards.length}}
+            {{#awards}}
+              <p>{{category}}: <a href="{{url}}">{{title}}</a></p>
+            {{/awards}}
+            {{#publications.length}}
+              <h4>Publications</h4>
+            {{/publications.length}}
+            {{#publications}}
+              <p>{{cite}}
+                {{#url}}
+                  <a target="_blank" href="{{url}}"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
+                {{/url}}
+              </p>
+            {{/publications}}
+          </div>
+        </div>
+      {{/projects}}
+
+    </div>
+
+    {{> partials/footer}}
+  </body>
+</html>

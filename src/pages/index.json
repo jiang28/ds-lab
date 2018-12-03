@@ -1,0 +1,62 @@
+{
+  "title": "Home",
+  "links": [
+    {
+      "active": "active",
+      "name": "Home",
+      "url": "."
+    },
+    {
+      "name": "News",
+      "url": "news"
+    },
+    {
+      "name": "People",
+      "url": "people"
+    },
+    {
+      "name": "Project",
+      "url": "project"
+    },
+    {
+      "name": "Publication",
+      "url": "http://dblp.uni-trier.de/pers/hd/k/Ku:Wei=Shinn"
+    },
+    {
+      "name": "Contact",
+      "url": "contact"
+    }
+  ],
+  "sponsors": [
+    {
+      "name": "Auburn University",
+      "url": "http://auburn.edu",
+      "img": "img/auburn_university.jpg"
+    },
+    {
+      "name": "Department of Engergy",
+      "url": "http://www.energy.gov/",
+      "img": "img/deptofenergy.svg"
+    },
+    {
+      "name": "National Science Foundation",
+      "url": "http://www.nsf.gov",
+      "img": "img/nsf.jpg"
+    },
+    {
+      "name": "Air Force Research Laboratory",
+      "url": "http://www.wpafb.af.mil/afrl/",
+      "img": "img/afrl.png"
+    },
+    {
+      "name": "Alabama EPSCoR",
+      "url": "https://alepscor.org/",
+      "img": "img/epscor.jpg"
+    },
+    {
+      "name": "Amazon Web Services",
+      "url": "https://aws.amazon.com/",
+      "img": "img/amazon_aws.png"
+    }
+  ]
+}
